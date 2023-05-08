@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+
+.sidebar_items {
+  @apply  rounded-lg px-5 py-3 text-lg flex items-center justify-center space-x-2
+    hover:bg-gray-700/50 cursor-pointer text-gray-300 transition-all duration-200 font-semibold
+    ease-out
+}
+}
